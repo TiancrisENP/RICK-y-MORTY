@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty Explorer</title>
+    <!-- Enlaces a archivos CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Rick_and_Morty.svg/800px-Rick_and_Morty.svg.png" alt="Rick and Morty Logo" class="logo">
+            <p>Explora el multiverso y conoce a los personajes más extraños</p>
+        </div>
+    </header>
+
+    <div class="filter-container">
+        <select id="character-filter">
+            <option value="all">Ver todos los personajes</option>
+            <!-- Las opciones se cargarán dinámicamente -->
+        </select>
+    </div>
+
+    <main>
+        <div class="card-container" id="card-container">
+            <div class="loading">
+                <div class="portal">
+                    <div class="portal-inner"></div>
+                </div>
+                <p>Viajando entre dimensiones...</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Sobre Nosotros</h3>
+                <p>Equipo de desarrollo de la Ciudadela de Ricks C-137</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <p>Email: czarache@cuc.edu.co</p>
+                <p>Teléfono: +57 304 564 7151</p>
+            </div>
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+                <div class="social-links">
+                    <a href="#" class="social-link">FB</a>
+                    <a href="#" class="social-link">TW</a>
+                    <a href="#" class="social-link">IG</a>
+                    <a href="#" class="social-link">YT</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Rick and Morty Explorer. Todos los derechos reservados.</p>
+            <p>Rick and Morty es una marca registrada de Adult Swim.</p>
+        </div>
+    </footer>
+
+    <!-- Script JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
